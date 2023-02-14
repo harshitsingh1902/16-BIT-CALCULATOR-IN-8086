@@ -306,7 +306,7 @@ PROC HSGET8
     PUSH CX
     
     ;HIGHER NIBBLE
-    MOV AH,0AH
+    MOV AH,01H
     INT 21H   
     SUB AL,30H
     CMP AL,09H
